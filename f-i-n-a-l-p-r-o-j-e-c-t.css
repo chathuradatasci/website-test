@@ -1,0 +1,37 @@
+.heytherecurrentlywereintheproc1 {
+  position: absolute;
+  top: 305px;
+  left: 160px;
+  line-height: 50px;
+  display: inline-block;
+  width: 856px;
+  height: 271px;
+}
+.default-use-the-same-character-icon {
+  position: absolute;
+  top: 134px;
+  left: 820px;
+  width: 577px;
+  height: 769px;
+  object-fit: cover;
+}
+.frame-31-landingpage-eng-icon {
+  position: absolute;
+  top: 46px;
+  left: 54px;
+  width: 95px;
+  height: 95px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.final-project {
+  position: relative;
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 3600px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-poppins);
+}

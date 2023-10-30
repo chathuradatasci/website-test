@@ -1,0 +1,224 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.rectangle3852-31-toc-31-landin {
+  position: absolute;
+  height: 103.7%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -3.7%;
+  left: 0;
+  border-radius: 0 0 var(--br-29xl) var(--br-29xl);
+  background-color: rgba(16, 16, 19, 0.9);
+}
+.vector-31-toc-31-landingpage-e-icon {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+.tableofcontents-31-toc-31-land {
+  position: absolute;
+  top: 32px;
+  left: 170px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: var(--font-encode-sans);
+  text-align: center;
+}
+.finalproject-31-toc-31-landing,
+.home-31-toc-31-landingpage-eng {
+  position: absolute;
+  top: 164px;
+  left: 408px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: right;
+  cursor: pointer;
+}
+.finalproject-31-toc-31-landing {
+  top: 228px;
+  left: 279px;
+}
+.aboutus-31-toc-31-landingpage-,
+.courseprojects-31-toc-31-landi {
+  position: absolute;
+  top: 332px;
+  left: 226px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: right;
+}
+.aboutus-31-toc-31-landingpage- {
+  top: 504px;
+  left: 350px;
+}
+.line4-31-toc-31-landingpage-en-icon {
+  position: absolute;
+  top: 170px;
+  left: 511px;
+  width: 4px;
+  height: 432px;
+}
+.subtopic1-31-toc-31-landingpag {
+  position: absolute;
+  top: 228px;
+  left: 541px;
+  letter-spacing: 0.12em;
+  font-weight: 200;
+  display: inline-block;
+  width: 463px;
+  cursor: pointer;
+}
+.week1-31-toc-31-landingpage-en,
+.week5-31-toc-31-landingpage-en,
+.week6-31-toc-31-landingpage-en,
+.week7-31-toc-31-landingpage-en {
+  position: absolute;
+  top: 332px;
+  left: 543px;
+  letter-spacing: 0.12em;
+  font-weight: 200;
+  display: inline-block;
+  width: 463px;
+  cursor: pointer;
+}
+.week5-31-toc-31-landingpage-en,
+.week6-31-toc-31-landingpage-en,
+.week7-31-toc-31-landingpage-en {
+  left: 898px;
+}
+.week6-31-toc-31-landingpage-en,
+.week7-31-toc-31-landingpage-en {
+  top: 368px;
+}
+.week7-31-toc-31-landingpage-en {
+  top: 404px;
+}
+.teammember1-31-toc-31-landingp,
+.teammember2-31-toc-31-landingp,
+.teammember3-31-toc-31-landingp,
+.week8-31-toc-31-landingpage-en {
+  position: absolute;
+  top: 440px;
+  left: 898px;
+  letter-spacing: 0.12em;
+  font-weight: 200;
+  display: inline-block;
+  width: 463px;
+  cursor: pointer;
+}
+.teammember1-31-toc-31-landingp,
+.teammember2-31-toc-31-landingp,
+.teammember3-31-toc-31-landingp {
+  top: 504px;
+  left: 543px;
+}
+.teammember2-31-toc-31-landingp,
+.teammember3-31-toc-31-landingp {
+  top: 540px;
+}
+.teammember3-31-toc-31-landingp {
+  top: 571px;
+}
+.teammember4-31-toc-31-landingp,
+.teammember5-31-toc-31-landingp,
+.week2-31-toc-31-landingpage-en,
+.week3-31-toc-31-landingpage-en {
+  position: absolute;
+  top: 504px;
+  left: 898px;
+  letter-spacing: 0.12em;
+  font-weight: 200;
+  display: inline-block;
+  width: 463px;
+  cursor: pointer;
+}
+.teammember5-31-toc-31-landingp,
+.week2-31-toc-31-landingpage-en,
+.week3-31-toc-31-landingpage-en {
+  top: 540px;
+}
+.week2-31-toc-31-landingpage-en,
+.week3-31-toc-31-landingpage-en {
+  top: 368px;
+  left: 543px;
+}
+.week3-31-toc-31-landingpage-en {
+  top: 404px;
+}
+.subtopic2-31-toc-31-landingpag,
+.subtopic3-31-toc-31-landingpag,
+.subtopic4-31-toc-31-landingpag,
+.week4-31-toc-31-landingpage-en {
+  position: absolute;
+  top: 440px;
+  left: 543px;
+  letter-spacing: 0.12em;
+  font-weight: 200;
+  display: inline-block;
+  width: 463px;
+  cursor: pointer;
+}
+.subtopic2-31-toc-31-landingpag,
+.subtopic3-31-toc-31-landingpag,
+.subtopic4-31-toc-31-landingpag {
+  top: 268px;
+  left: 541px;
+}
+.subtopic3-31-toc-31-landingpag,
+.subtopic4-31-toc-31-landingpag {
+  top: 228px;
+  left: 896px;
+}
+.subtopic4-31-toc-31-landingpag {
+  top: 268px;
+}
+.toc-31-landingpage-eng {
+  position: relative;
+  border-radius: 0 0 var(--br-29xl) var(--br-29xl);
+  width: 1440px;
+  height: 675px;
+  z-index: 0;
+}
+.content-31-landingpage-eng-icon {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  width: 89px;
+  height: 95px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu {
+  position: relative;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-poppins);
+}
+.menu.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}
