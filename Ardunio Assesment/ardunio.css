@@ -1,0 +1,189 @@
+.arduino-is-an {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  width: 950px;
+}
+.image-27-icon {
+  position: relative;
+  width: 950px;
+  height: 499px;
+  object-fit: cover;
+}
+.arduino-board {
+  letter-spacing: 0.1em;
+  line-height: 27px;
+}
+.the-arduino-board {
+  font-weight: 300;
+}
+.arduino-board-the-container {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+}
+.arduino-hardware1 {
+  text-decoration: underline;
+}
+.arduino-hardware {
+  color: inherit;
+}
+.check-here-for-container {
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  width: 950px;
+}
+.click-here-for-container {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+  flex-shrink: 0;
+}
+.click-here-for-the-basics-abou-wrapper {
+  width: 950px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  color: inherit;
+}
+.why-arduino-is-beginner-friend {
+  margin: 0;
+}
+.arduino-is-known {
+  margin: 0;
+  font-weight: 300;
+}
+.abundance-of-resources-arduin {
+  margin-bottom: 0;
+}
+.simplicity-the-arduino-progra {
+  margin: 0;
+  padding-left: 23px;
+}
+.why-arduino-is-container {
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  width: 950px;
+}
+.arduino-is-an-open-source-elec-parent {
+  position: absolute;
+  top: 120px;
+  left: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.designedbyteamnovva2023-31-men {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+}
+.footer-31-footer-31-landingpag,
+.menuitems-31-footer-31-footer- {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.footer-31-footer-31-landingpag {
+  position: absolute;
+  bottom: 29px;
+  left: calc(50% - 724px);
+  background-color: var(--color-gray);
+  width: 1440px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.top-31-footer-31-landingpage-e-icon {
+  position: absolute;
+  top: 100px;
+  left: 1366px;
+  width: 28px;
+  height: 32px;
+}
+.footer-31-landingpage-eng {
+  position: absolute;
+  top: 3426px;
+  left: calc(50% - 720px);
+  background: linear-gradient(
+    0deg,
+    rgba(4, 228, 255, 0.2),
+    rgba(16, 16, 19, 0.2) 86.23%
+  );
+  width: 1440px;
+  height: 249px;
+}
+.what-is-arduino {
+  backdrop-filter: blur(4px);
+}
+
+.class-project,
+.what-is-arduino {
+  position: relative;
+  letter-spacing: 0.1em;
+  line-height: 27px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.arduino,
+.navigation {
+  font-size: var(--font-size-mid);
+}
+.navigation {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  background-color: var(--color-gray);
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+  text-decoration: none;
+}
+.arduino {
+  position: relative;
+  background-color: #000;
+  width: 100%;
+  height: 3675px;
+  overflow: hidden;
+  text-align: justify;
+  color: var(--color-whitesmoke);
+  font-family: var(--font-inter);
+}
+.class-project a{
+  color: #fff;
+  text-decoration: none;
+}
+.what-is-arduino a{
+  color: #fff;
+  text-decoration: none;
+}

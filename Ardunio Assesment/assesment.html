@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./assesment.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="arduino-assessment">
+      <footer class="footer-31-landingpage-eng">
+        <footer class="footer-31-footer-31-landingpag">
+          <div class="menuitems-31-footer-31-footer-">
+            <div class="designedbyteamnovva2023-31-men">
+              © | Designed by Team Novva | 2023
+            </div>
+          </div>
+        </footer>
+        <img
+          class="top-31-footer-31-landingpage-e-icon"
+          alt=""
+          src="./public/top31footer31landingpageeng.svg"
+        />
+      </footer>
+      <div class="project-containing-two-led-on-parent">
+        <b class="project-containing-two"
+          >Project containing two LED, one screen and one motor.</b
+        >
+        <div class="list-of-components-parent">
+          <b class="project-containing-two">List of components</b>
+          <div class="frame-parent">
+            <div class="name-parent">
+              <div class="name">Name</div>
+              <div class="name">Quantity</div>
+              <div class="name">Component</div>
+            </div>
+            <div class="u1-parent">
+              <div class="name">U1</div>
+              <div class="name">U2</div>
+              <div class="name">R1, R3</div>
+              <div class="name">D1</div>
+              <div class="name">D2</div>
+              <div class="name">R2</div>
+              <div class="name">SERVO1</div>
+            </div>
+            <div class="parent">
+              <div class="name">1</div>
+              <div class="name">1</div>
+              <div class="name">2</div>
+              <div class="name">1</div>
+              <div class="name">1</div>
+              <div class="name">1</div>
+              <div class="name">1</div>
+            </div>
+            <div class="arduino-uno-r3-parent">
+              <div class="name">Arduino Uno R3</div>
+              <div class="name">LCD 16 x 2"</div>
+              <div class="name">220 Ω Resistor</div>
+              <div class="name">Green LED</div>
+              <div class="name">Red LED</div>
+              <div class="name">1 kΩ Resistor</div>
+              <div class="name">Positional Micro Servo</div>
+            </div>
+          </div>
+        </div>
+        <div class="simulation-circuit-parent">
+          <b class="project-containing-two">Simulation Circuit</b>
+          <img class="image-26-icon" alt="" src="./public/image-26@2x.png" />
+        </div>
+        <div class="simulation-circuit-parent">
+          <b class="project-containing-two">Arduino IDE Code</b>
+          <div class="include-liquidcrystalh-inc-wrapper">
+            <div class="include-liquidcrystalh-inc-container">
+              <pre v-pre="" data-lang="C++"><code class="lang-C++">
+                #include <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;<span>LiquidCrystal.h</span><span class="token punctuation">&gt;</span></span> 
+                #include <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;<span>DHT.h</span><span class="token punctuation">&gt;</span></span>
+                  
+                  LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // Set up the LCD pins
+                  Servo myservo; // Create a Servo object
+                  
+                  const int led = 13; // LED connection to digital pin 13
+                  const int led1 = 6; // LED connection to digital pin 6
+                  
+                  byte leds = 0;
+                  
+                  void setup() {
+                    lcd.begin(16, 2); // Initialize the LCD screen
+                    pinMode(led, OUTPUT);
+                    pinMode(led1, OUTPUT);
+                    myservo.attach(10); // Attach the servo motor to digital pin 10
+                  }
+                  
+                  void loop() {
+                    // Turn on the LED and rotate the servo and display message "on"
+                    digitalWrite(led, HIGH);
+                    digitalWrite(led1, LOW);
+                    lcd.setCursor(0, 0);
+                    lcd.print("    NOVVA ON");
+                    myservo.write(0); // Rotate the servo to 90 degrees
+                  
+                    delay(3000); // Delay for 3 seconds
+                  
+                    // Turn off the LED and stop the servo and display message "off"
+                    digitalWrite(led, LOW);
+                    digitalWrite(led1, HIGH);
+                    lcd.clear(); // Clear the LCD Display
+                    lcd.setCursor(0, 0);
+                    lcd.print("   NOVVA OFF!");
+                    myservo.write(90); // Stop the servo motor
+                  
+                    delay(3000); // Delay for 3 seconds
+                  }
+               </code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="list-of-components-parent">
+          <b class="project-containing-two">Runing the system.</b>
+          <video width="955px" height="424px" controls="controls">
+            <source src="/public/Project2.mp4" type="video/mp4" />
+           </video></div>
+        </div>
+      </div>
+      <nav class="navigation">
+        <div class="menu-items">
+          <div class="what-is-arduino" id="whatIsArduino">
+           <a id="whatIsArduino" href="ardunio.html">What is Arduino?</a>
+          </div>
+          <div class="class-project" id="classProjectText">
+            <a id="classProjectText" href="classproject.html">Class Project</a>
+          </div>
+          <div class="class-project" id="assessment1Text">
+            <a id="assessment1Text" href="assesment.html">Assessment1</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <script>
+      var whatIsArduino = document.getElementById("whatIsArduino");
+      if (whatIsArduino) {
+          whatIsArduino.addEventListener("click", function (e) {
+              // Please sync "Arduino" to the project
+          });
+      }
+      
+      var classProjectText = document.getElementById("classProjectText");
+      if (classProjectText) {
+        classProjectText.addEventListener("click", function (e) {
+          // Please sync "Arduino Class Project" to the project
+        });
+      }
+      
+      var assessment1Text = document.getElementById("assessment1Text");
+      if (assessment1Text) {
+        assessment1Text.addEventListener("click", function (e) {
+          window.location.href = "assessment.html";
+        });
+      }
+      </script>
+  </body>
+</html>
