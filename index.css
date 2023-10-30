@@ -278,6 +278,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  cursor: pointer;
 }
 .frame-31-up-31-projects-31-scr {
   position: relative;
